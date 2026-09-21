@@ -1,0 +1,1278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#030712" />
+    
+    <!-- Primary SEO & App Identity -->
+    <title>AKKADAN MUSIX – Music • Production • Sound</title>
+    <meta name="description" content="Akkadan Musix is a premium music production and audio engineering brand crafting composition, recording, mixing, mastering, and creative sound solutions." />
+    <meta name="keywords" content="Akkadan Musix, Music Production, Audio Engineering, Mixing, Mastering, Recording Studio, Live Sound, Sound Design" />
+    <meta name="author" content="Akkadan Musix" />
+    
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AKKADAN MUSIX – Music • Production • Sound" />
+    <meta property="og:description" content="Where sound becomes music. Professional music production, audio engineering, mixing, mastering, and creative sound solutions." />
+    <meta property="og:site_name" content="AKKADAN MUSIX" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=80" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AKKADAN MUSIX – Music • Production • Sound" />
+    <meta name="twitter:description" content="Music production, audio engineering and creative sound solutions crafted with precision." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=80" />
+
+    <!-- Google Fonts: Syne (Display) & Plus Jakarta Sans (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "AKKADAN MUSIX",
+      "slogan": "Music • Production • Sound",
+      "description": "Music production, audio engineering, recording, mixing, mastering, live sound, and creative sound solutions.",
+      "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=80",
+      "serviceType": ["Music Production", "Audio Engineering", "Mixing", "Mastering", "Live Sound", "Audio Video Production"]
+    }
+    </script>
+  </head>
+  <body>
+
+    <!-- ====================================================================
+         1. NAVIGATION BAR
+         ==================================================================== -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-container">
+        <!-- Brand Logo -->
+        <a href="#home" class="brand-logo" id="nav-brand-logo" aria-label="AKKADAN MUSIX Homepage">
+          <div class="brand-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 18V5l12-2v13"></path>
+              <circle cx="6" cy="18" r="3"></circle>
+              <circle cx="18" cy="16" r="3"></circle>
+            </svg>
+          </div>
+          <div class="brand-title">
+            <span class="line-1">AKKADAN</span>
+            <span class="line-2">MUSIX</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav aria-label="Main Navigation">
+          <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#works" class="nav-link">Works</a></li>
+            <li><a href="#studio" class="nav-link">Studio</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- CTA Action -->
+        <div class="nav-actions">
+          <a href="#contact" class="btn btn-primary btn-sm" id="nav-cta-btn">
+            <span>Let's Create</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu">
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-backdrop" id="mobile-backdrop"></div>
+    <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true">
+      <div>
+        <div class="brand-title" style="margin-bottom: 2.5rem;">
+          <span class="line-1" style="font-size: 1.4rem;">AKKADAN</span>
+          <span class="line-2" style="font-size: 1rem; color: var(--accent-purple);">MUSIX</span>
+        </div>
+        <ul class="mobile-nav-links">
+          <li><a href="#home" class="mobile-nav-link active">Home</a></li>
+          <li><a href="#about" class="mobile-nav-link">About</a></li>
+          <li><a href="#services" class="mobile-nav-link">Services</a></li>
+          <li><a href="#works" class="mobile-nav-link">Works</a></li>
+          <li><a href="#studio" class="mobile-nav-link">Studio</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="#contact" class="btn btn-primary" style="width: 100%; margin-bottom: 1.5rem;" id="mobile-menu-cta">
+          Let's Create
+        </a>
+        <p style="font-size: 0.75rem; color: var(--text-muted); text-align: center; letter-spacing: 0.1em; text-transform: uppercase;">
+          Music • Production • Sound
+        </p>
+      </div>
+    </div>
+
+    <main>
+      <!-- ====================================================================
+           2. HERO SECTION
+           ==================================================================== -->
+      <section class="hero-section" id="home">
+        <!-- Visualizer & Background Lighting -->
+        <div class="hero-glow-blob hero-glow-1"></div>
+        <div class="hero-glow-blob hero-glow-2"></div>
+        <canvas id="hero-canvas" class="hero-visualizer-canvas" aria-hidden="true"></canvas>
+
+        <div class="container" style="position: relative; z-index: 2;">
+          <div class="hero-content">
+            <!-- Small brand pill -->
+            <div class="hero-badge reveal-on-scroll">
+              <span class="hero-badge-pulse"></span>
+              <span>Akkadan Musix &bull; Sound Studio</span>
+            </div>
+
+            <!-- Main Heading -->
+            <h1 class="hero-heading reveal-on-scroll delay-1">
+              WHERE SOUND<br />
+              <span class="gradient-text">BECOMES MUSIC.</span>
+            </h1>
+
+            <!-- Supporting Text -->
+            <p class="hero-description reveal-on-scroll delay-2">
+              Music production, audio engineering and creative sound solutions crafted with precision.
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="hero-cta-group reveal-on-scroll delay-3">
+              <a href="#works" class="btn btn-primary" id="hero-cta-works">
+                <span>Explore Our Work</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+              </a>
+              <a href="#contact" class="btn btn-secondary" id="hero-cta-project">
+                <span>Start a Project</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+
+            <!-- Signature Line -->
+            <div class="hero-signature-line reveal-on-scroll delay-4">
+              <span>AKKADAN MUSIX</span>
+              <span>MUSIC • PRODUCTION • SOUND</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           3. ABOUT SECTION
+           ==================================================================== -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="about-grid">
+            <!-- Studio Imagery & Waveform Visual -->
+            <div class="about-visual reveal-on-scroll">
+              <div class="about-image-wrapper">
+                <!-- Replace with your custom studio photo in /images/studio-about.jpg -->
+                <img 
+                  src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=80" 
+                  alt="Akkadan Musix Studio mixing console and acoustic control room" 
+                  class="about-image"
+                  loading="lazy"
+                />
+                <div class="about-image-overlay">
+                  <span style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 700; color: #fff;">
+                    Precision Monitoring &amp; Analog Warmth
+                  </span>
+                  <!-- Animated Waveform Accent -->
+                  <div class="about-waveform-bar" aria-hidden="true">
+                    <span class="waveform-bar" style="animation-delay: 0.1s;"></span>
+                    <span class="waveform-bar" style="animation-delay: 0.3s;"></span>
+                    <span class="waveform-bar" style="animation-delay: 0.5s;"></span>
+                    <span class="waveform-bar" style="animation-delay: 0.2s;"></span>
+                    <span class="waveform-bar" style="animation-delay: 0.7s;"></span>
+                    <span class="waveform-bar" style="animation-delay: 0.4s;"></span>
+                    <span class="waveform-bar" style="animation-delay: 0.6s;"></span>
+                    <span class="waveform-bar" style="animation-delay: 0.25s;"></span>
+                    <span class="waveform-bar" style="animation-delay: 0.8s;"></span>
+                    <span class="waveform-bar" style="animation-delay: 0.35s;"></span>
+                    <span class="waveform-bar" style="animation-delay: 0.15s;"></span>
+                    <span class="waveform-bar" style="animation-delay: 0.55s;"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Content & Foundation Pillars -->
+            <div class="about-content">
+              <div class="section-header" style="margin-bottom: 2rem;">
+                <span class="section-tagline">About The Studio</span>
+                <h2 class="section-title">THE SOUND BEHIND THE VISION</h2>
+              </div>
+
+              <p class="about-text-lead reveal-on-scroll">
+                Akkadan Musix is a creative music and audio production brand focused on transforming ideas into immersive sound. From composition and recording to mixing, mastering and live audio, we bring technical precision and musical creativity together.
+              </p>
+
+              <!-- Statistics / Foundation Pillar Cards (No fake numbers) -->
+              <div class="about-cards-grid reveal-on-scroll delay-1">
+                <!-- Pillar 1 -->
+                <div class="about-card" id="about-card-music-production">
+                  <div class="about-card-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 18V5l12-2v13"></path>
+                      <circle cx="6" cy="18" r="3"></circle>
+                      <circle cx="18" cy="16" r="3"></circle>
+                    </svg>
+                  </div>
+                  <span class="about-card-label">Music Production</span>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div class="about-card" id="about-card-audio-engineering">
+                  <div class="about-card-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="4" y1="21" x2="4" y2="14"></line>
+                      <line x1="4" y1="10" x2="4" y2="3"></line>
+                      <line x1="12" y1="21" x2="12" y2="12"></line>
+                      <line x1="12" y1="8" x2="12" y2="3"></line>
+                      <line x1="20" y1="21" x2="20" y2="16"></line>
+                      <line x1="20" y1="12" x2="20" y2="3"></line>
+                      <line x1="1" y1="14" x2="7" y2="14"></line>
+                      <line x1="9" y1="8" x2="15" y2="8"></line>
+                      <line x1="17" y1="16" x2="23" y2="16"></line>
+                    </svg>
+                  </div>
+                  <span class="about-card-label">Audio Engineering</span>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div class="about-card" id="about-card-live-sound">
+                  <div class="about-card-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                      <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                    </svg>
+                  </div>
+                  <span class="about-card-label">Live Sound</span>
+                </div>
+
+                <!-- Pillar 4 -->
+                <div class="about-card" id="about-card-creative-production">
+                  <div class="about-card-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                    </svg>
+                  </div>
+                  <span class="about-card-label">Creative Production</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           4. SERVICES SECTION
+           ==================================================================== -->
+      <section class="section" id="services" style="background: rgba(17, 18, 23, 0.45);">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-tagline">Capabilities &amp; Expertise</span>
+            <h2 class="section-title">WHAT WE DO</h2>
+            <p class="section-subtitle">
+              Comprehensive audio services tailored for recording artists, directors, brands, and live performance.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <!-- Service 01 -->
+            <article class="service-card reveal-on-scroll" id="service-01">
+              <div class="service-header">
+                <span class="service-number">01</span>
+                <div class="service-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 18V5l12-2v13"></path>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <circle cx="18" cy="16" r="3"></circle>
+                  </svg>
+                </div>
+              </div>
+              <h3 class="service-title">MUSIC PRODUCTION</h3>
+              <p class="service-desc">Composition, arrangement, programming and complete music production.</p>
+              <div class="service-footer">
+                <span>Inquire Service</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </div>
+            </article>
+
+            <!-- Service 02 -->
+            <article class="service-card reveal-on-scroll delay-1" id="service-02">
+              <div class="service-header">
+                <span class="service-number">02</span>
+                <div class="service-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                    <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                    <line x1="12" y1="19" x2="12" y2="23"></line>
+                    <line x1="8" y1="23" x2="16" y2="23"></line>
+                  </svg>
+                </div>
+              </div>
+              <h3 class="service-title">RECORDING</h3>
+              <p class="service-desc">Professional vocal and instrumental recording workflows.</p>
+              <div class="service-footer">
+                <span>Inquire Service</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </div>
+            </article>
+
+            <!-- Service 03 -->
+            <article class="service-card reveal-on-scroll delay-2" id="service-03">
+              <div class="service-header">
+                <span class="service-number">03</span>
+                <div class="service-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="4" y1="21" x2="4" y2="14"></line>
+                    <line x1="4" y1="10" x2="4" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12" y2="3"></line>
+                    <line x1="20" y1="21" x2="20" y2="16"></line>
+                    <line x1="20" y1="12" x2="20" y2="3"></line>
+                    <line x1="1" y1="14" x2="7" y2="14"></line>
+                    <line x1="9" y1="8" x2="15" y2="8"></line>
+                    <line x1="17" y1="16" x2="23" y2="16"></line>
+                  </svg>
+                </div>
+              </div>
+              <h3 class="service-title">MIXING</h3>
+              <p class="service-desc">Detailed balancing, processing and spatial design for a polished sound.</p>
+              <div class="service-footer">
+                <span>Inquire Service</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </div>
+            </article>
+
+            <!-- Service 04 -->
+            <article class="service-card reveal-on-scroll" id="service-04">
+              <div class="service-header">
+                <span class="service-number">04</span>
+                <div class="service-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M2 10s3-3 5-3 5 6 7 6 5-6 8-3"></path>
+                    <path d="M2 14s3-3 5-3 5 6 7 6 5-6 8-3"></path>
+                  </svg>
+                </div>
+              </div>
+              <h3 class="service-title">MASTERING</h3>
+              <p class="service-desc">Final audio enhancement and delivery optimized for modern platforms.</p>
+              <div class="service-footer">
+                <span>Inquire Service</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </div>
+            </article>
+
+            <!-- Service 05 -->
+            <article class="service-card reveal-on-scroll delay-1" id="service-05">
+              <div class="service-header">
+                <span class="service-number">05</span>
+                <div class="service-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect>
+                    <line x1="7" y1="2" x2="7" y2="22"></line>
+                    <line x1="17" y1="2" x2="17" y2="22"></line>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                  </svg>
+                </div>
+              </div>
+              <h3 class="service-title">LIVE SOUND</h3>
+              <p class="service-desc">Audio setup, mixing and technical sound management for events and performances.</p>
+              <div class="service-footer">
+                <span>Inquire Service</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </div>
+            </article>
+
+            <!-- Service 06 -->
+            <article class="service-card reveal-on-scroll delay-2" id="service-06">
+              <div class="service-header">
+                <span class="service-number">06</span>
+                <div class="service-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect>
+                    <line x1="7" y1="2" x2="7" y2="22"></line>
+                    <line x1="17" y1="2" x2="17" y2="22"></line>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <line x1="2" y1="7" x2="7" y2="7"></line>
+                    <line x1="2" y1="17" x2="7" y2="17"></line>
+                    <line x1="17" y1="17" x2="22" y2="17"></line>
+                    <line x1="17" y1="7" x2="22" y2="7"></line>
+                  </svg>
+                </div>
+              </div>
+              <h3 class="service-title">AUDIO / VIDEO PRODUCTION</h3>
+              <p class="service-desc">Creative sound design and audio solutions for visual content, advertisements and digital media.</p>
+              <div class="service-footer">
+                <span>Inquire Service</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           5. FEATURED WORKS / PORTFOLIO
+           ==================================================================== -->
+      <section class="section" id="works">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-tagline">Curated Showcase</span>
+            <h2 class="section-title">SELECTED WORKS</h2>
+            <p class="section-subtitle">
+              Listen to selected music productions, original arrangements, scores, and acoustic sessions.
+            </p>
+          </div>
+
+          <!-- Category Navigation Tabs -->
+          <div class="portfolio-nav reveal-on-scroll">
+            <button class="portfolio-tab active" data-category="all">All Tracks</button>
+            <button class="portfolio-tab" data-category="music-production">Music Production</button>
+            <button class="portfolio-tab" data-category="cover-songs">Cover Songs</button>
+            <button class="portfolio-tab" data-category="piano-covers">Piano Covers</button>
+            <button class="portfolio-tab" data-category="ad-scores">Advertisement Scores</button>
+            <button class="portfolio-tab" data-category="bg-scores">Background Scores</button>
+            <button class="portfolio-tab" data-category="sound-design">Sound Design</button>
+          </div>
+
+          <!-- Works Grid -->
+          <div class="portfolio-grid">
+            <!-- Work 1: Music Production -->
+            <article class="work-card reveal-on-scroll" data-category="music-production" data-track-id="1" id="work-card-1">
+              <div class="work-thumbnail-container">
+                <img 
+                  src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=600&q=80" 
+                  alt="Midnight Velvet album cover and studio soundboard" 
+                  class="work-thumbnail"
+                  loading="lazy"
+                />
+                <span class="work-category-badge">Music Production</span>
+                <div class="work-play-overlay">
+                  <button class="play-trigger-btn play-work-btn" data-track-id="1" aria-label="Play Midnight Velvet">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                      <polygon points="6 4 20 12 6 20 6 4"></polygon>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="work-info">
+                <h3 class="work-title">Midnight Velvet</h3>
+                <p class="work-desc">Original composition featuring deep synth basslines, warm rhodes keys, and modern drum programming.</p>
+                <div class="work-meta-row">
+                  <div class="work-waveform-preview">
+                    <span class="preview-bar" style="height: 6px;"></span>
+                    <span class="preview-bar" style="height: 12px;"></span>
+                    <span class="preview-bar" style="height: 16px;"></span>
+                    <span class="preview-bar" style="height: 10px;"></span>
+                    <span class="preview-bar" style="height: 14px;"></span>
+                    <span class="preview-bar" style="height: 8px;"></span>
+                  </div>
+                  <span>3:42 &bull; /audio/project-01.mp3</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Work 2: Cover Songs -->
+            <article class="work-card reveal-on-scroll delay-1" data-category="cover-songs" data-track-id="2" id="work-card-2">
+              <div class="work-thumbnail-container">
+                <img 
+                  src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80" 
+                  alt="Echoes of Silence cover song microphone setup" 
+                  class="work-thumbnail"
+                  loading="lazy"
+                />
+                <span class="work-category-badge">Cover Songs</span>
+                <div class="work-play-overlay">
+                  <button class="play-trigger-btn play-work-btn" data-track-id="2" aria-label="Play Echoes of Silence">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                      <polygon points="6 4 20 12 6 20 6 4"></polygon>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="work-info">
+                <h3 class="work-title">Echoes of Silence</h3>
+                <p class="work-desc">Reimagined acoustic-electronic cover arrangement with layered ambient vocal production.</p>
+                <div class="work-meta-row">
+                  <div class="work-waveform-preview">
+                    <span class="preview-bar" style="height: 10px;"></span>
+                    <span class="preview-bar" style="height: 15px;"></span>
+                    <span class="preview-bar" style="height: 7px;"></span>
+                    <span class="preview-bar" style="height: 16px;"></span>
+                    <span class="preview-bar" style="height: 12px;"></span>
+                  </div>
+                  <span>4:15 &bull; /audio/project-02.mp3</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Work 3: Piano Covers -->
+            <article class="work-card reveal-on-scroll delay-2" data-category="piano-covers" data-track-id="3" id="work-card-3">
+              <div class="work-thumbnail-container">
+                <img 
+                  src="https://images.unsplash.com/photo-1520523839898-50712743e9a7?auto=format&fit=crop&w=600&q=80" 
+                  alt="Nocturne in C Minor grand piano keys" 
+                  class="work-thumbnail"
+                  loading="lazy"
+                />
+                <span class="work-category-badge">Piano Covers</span>
+                <div class="work-play-overlay">
+                  <button class="play-trigger-btn play-work-btn" data-track-id="3" aria-label="Play Nocturne in C Minor">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                      <polygon points="6 4 20 12 6 20 6 4"></polygon>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="work-info">
+                <h3 class="work-title">Nocturne in C Minor</h3>
+                <p class="work-desc">Solo grand piano recording with intimate mic placement and pristine stereo room dynamics.</p>
+                <div class="work-meta-row">
+                  <div class="work-waveform-preview">
+                    <span class="preview-bar" style="height: 8px;"></span>
+                    <span class="preview-bar" style="height: 13px;"></span>
+                    <span class="preview-bar" style="height: 11px;"></span>
+                    <span class="preview-bar" style="height: 16px;"></span>
+                    <span class="preview-bar" style="height: 6px;"></span>
+                  </div>
+                  <span>2:58 &bull; /audio/project-03.mp3</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Work 4: Advertisement Scores -->
+            <article class="work-card reveal-on-scroll" data-category="ad-scores" data-track-id="4" id="work-card-4">
+              <div class="work-thumbnail-container">
+                <img 
+                  src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80" 
+                  alt="Aura commercial campaign audio aesthetic" 
+                  class="work-thumbnail"
+                  loading="lazy"
+                />
+                <span class="work-category-badge">Advertisement Scores</span>
+                <div class="work-play-overlay">
+                  <button class="play-trigger-btn play-work-btn" data-track-id="4" aria-label="Play Aura Cinematic Spark">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                      <polygon points="6 4 20 12 6 20 6 4"></polygon>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="work-info">
+                <h3 class="work-title">Aura Cinematic Spark</h3>
+                <p class="work-desc">High-impact 90-second score crafted for a luxury automotive commercial brand campaign.</p>
+                <div class="work-meta-row">
+                  <div class="work-waveform-preview">
+                    <span class="preview-bar" style="height: 14px;"></span>
+                    <span class="preview-bar" style="height: 8px;"></span>
+                    <span class="preview-bar" style="height: 16px;"></span>
+                    <span class="preview-bar" style="height: 12px;"></span>
+                    <span class="preview-bar" style="height: 15px;"></span>
+                  </div>
+                  <span>1:30 &bull; /audio/project-04.mp3</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Work 5: Background Scores -->
+            <article class="work-card reveal-on-scroll delay-1" data-category="bg-scores" data-track-id="5" id="work-card-5">
+              <div class="work-thumbnail-container">
+                <img 
+                  src="https://images.unsplash.com/photo-1519508234439-4f23643125c1?auto=format&fit=crop&w=600&q=80" 
+                  alt="Horizon Pulse moody film studio monitor environment" 
+                  class="work-thumbnail"
+                  loading="lazy"
+                />
+                <span class="work-category-badge">Background Scores</span>
+                <div class="work-play-overlay">
+                  <button class="play-trigger-btn play-work-btn" data-track-id="5" aria-label="Play Horizon Pulse">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                      <polygon points="6 4 20 12 6 20 6 4"></polygon>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="work-info">
+                <h3 class="work-title">Horizon Pulse</h3>
+                <p class="work-desc">Atmospheric motion picture background score blending orchestral strings with subtle sub-bass texture.</p>
+                <div class="work-meta-row">
+                  <div class="work-waveform-preview">
+                    <span class="preview-bar" style="height: 9px;"></span>
+                    <span class="preview-bar" style="height: 14px;"></span>
+                    <span class="preview-bar" style="height: 7px;"></span>
+                    <span class="preview-bar" style="height: 15px;"></span>
+                    <span class="preview-bar" style="height: 10px;"></span>
+                  </div>
+                  <span>3:10 &bull; /audio/project-05.mp3</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Work 6: Sound Design -->
+            <article class="work-card reveal-on-scroll delay-2" data-category="sound-design" data-track-id="6" id="work-card-6">
+              <div class="work-thumbnail-container">
+                <img 
+                  src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=600&q=80" 
+                  alt="Neural Frequency modular synth audio processing" 
+                  class="work-thumbnail"
+                  loading="lazy"
+                />
+                <span class="work-category-badge">Sound Design</span>
+                <div class="work-play-overlay">
+                  <button class="play-trigger-btn play-work-btn" data-track-id="6" aria-label="Play Neural Frequency">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                      <polygon points="6 4 20 12 6 20 6 4"></polygon>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="work-info">
+                <h3 class="work-title">Neural Frequency</h3>
+                <p class="work-desc">Futuristic UI sound design toolkit, holographic whooshes, risers, and sub drops for digital media.</p>
+                <div class="work-meta-row">
+                  <div class="work-waveform-preview">
+                    <span class="preview-bar" style="height: 15px;"></span>
+                    <span class="preview-bar" style="height: 6px;"></span>
+                    <span class="preview-bar" style="height: 16px;"></span>
+                    <span class="preview-bar" style="height: 11px;"></span>
+                    <span class="preview-bar" style="height: 13px;"></span>
+                  </div>
+                  <span>2:24 &bull; /audio/project-06.mp3</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           6. STUDIO SECTION
+           ==================================================================== -->
+      <section class="section" id="studio" style="background: rgba(17, 18, 23, 0.4);">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-tagline">Environment &amp; Infrastructure</span>
+            <h2 class="section-title">INSIDE THE STUDIO</h2>
+            <p class="section-subtitle">
+              A purpose-built acoustic sanctuary crafted for sonic precision, creative exploration, and high-fidelity output.
+            </p>
+          </div>
+
+          <!-- Studio Hero Banner -->
+          <div class="studio-hero-banner reveal-on-scroll">
+            <!-- Replace image in /images/studio-hero.jpg -->
+            <img 
+              src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1600&q=80" 
+              alt="Inside Akkadan Musix master studio suite" 
+              class="studio-banner-img"
+              loading="lazy"
+            />
+            <div class="studio-banner-overlay">
+              <span class="section-tagline" style="color: var(--accent-purple-light);">Acoustically Tuned Environment</span>
+              <h3 class="studio-banner-title">ENGINEERED FOR SONIC TRANSPARENCY</h3>
+              <p class="studio-banner-desc">
+                From precision nearfield monitoring to studio-grade analog preamps and digital audio workstations, every element is designed to bring your sonic vision to life without coloration.
+              </p>
+            </div>
+          </div>
+
+          <!-- Studio Capabilities Grid -->
+          <div class="studio-features-grid">
+            <!-- 1. Production -->
+            <div class="studio-card reveal-on-scroll" id="studio-card-prod">
+              <div class="studio-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <h4 class="studio-card-title">Production</h4>
+              <p class="studio-card-desc">
+                Advanced DAW workflows, curated synthesizers, and virtual sample libraries for limitless composition and sound design.
+              </p>
+            </div>
+
+            <!-- 2. Recording -->
+            <div class="studio-card reveal-on-scroll delay-1" id="studio-card-rec">
+              <div class="studio-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                  <line x1="12" y1="19" x2="12" y2="23"></line>
+                  <line x1="8" y1="23" x2="16" y2="23"></line>
+                </svg>
+              </div>
+              <h4 class="studio-card-title">Recording</h4>
+              <p class="studio-card-desc">
+                Pristine microphone capture with low self-noise preamplification, isolated acoustic treatment, and low-latency foldback.
+              </p>
+            </div>
+
+            <!-- 3. Mixing -->
+            <div class="studio-card reveal-on-scroll delay-2" id="studio-card-mix">
+              <div class="studio-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="4" y1="21" x2="4" y2="14"></line>
+                  <line x1="4" y1="10" x2="4" y2="3"></line>
+                  <line x1="12" y1="21" x2="12" y2="12"></line>
+                  <line x1="12" y1="8" x2="12" y2="3"></line>
+                  <line x1="20" y1="21" x2="20" y2="16"></line>
+                  <line x1="20" y1="12" x2="20" y2="3"></line>
+                  <line x1="1" y1="14" x2="7" y2="14"></line>
+                  <line x1="9" y1="8" x2="15" y2="8"></line>
+                  <line x1="17" y1="16" x2="23" y2="16"></line>
+                </svg>
+              </div>
+              <h4 class="studio-card-title">Mixing</h4>
+              <p class="studio-card-desc">
+                High-headroom summing, stereo imaging, spatial reverb sculpting, and parametric balancing for maximum depth and punch.
+              </p>
+            </div>
+
+            <!-- 4. Monitoring -->
+            <div class="studio-card reveal-on-scroll delay-3" id="studio-card-mon">
+              <div class="studio-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                  <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+                </svg>
+              </div>
+              <h4 class="studio-card-title">Monitoring</h4>
+              <p class="studio-card-desc">
+                Phase-coherent nearfield reference monitors coupled with calibrated headphone environments for dependable mix translation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           7. CREATIVE PROCESS TIMELINE
+           ==================================================================== -->
+      <section class="section" id="process">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-tagline">Workflow &amp; Methodology</span>
+            <h2 class="section-title">FROM IDEA TO SOUND</h2>
+            <p class="section-subtitle">
+              A structured 4-step collaborative journey transforming raw musical concepts into finished master recordings.
+            </p>
+          </div>
+
+          <div class="process-timeline">
+            <!-- Step 01: Idea -->
+            <div class="process-step reveal-on-scroll" id="step-01">
+              <div class="step-node">01</div>
+              <h3 class="step-title">IDEA</h3>
+              <p class="step-desc">Understanding the concept, creative direction, references, and emotional goals of your project.</p>
+            </div>
+
+            <!-- Step 02: Create -->
+            <div class="process-step reveal-on-scroll delay-1" id="step-02">
+              <div class="step-node">02</div>
+              <h3 class="step-title">CREATE</h3>
+              <p class="step-desc">Composition, melody writing, harmonic arrangement, rhythmic programming, and initial draft production.</p>
+            </div>
+
+            <!-- Step 03: Refine -->
+            <div class="process-step reveal-on-scroll delay-2" id="step-03">
+              <div class="step-node">03</div>
+              <h3 class="step-title">REFINE</h3>
+              <p class="step-desc">Recording vocals/instruments, surgical audio editing, dynamic balancing, spatial mixing, and sound design.</p>
+            </div>
+
+            <!-- Step 04: Deliver -->
+            <div class="process-step reveal-on-scroll delay-3" id="step-04">
+              <div class="step-node">04</div>
+              <h3 class="step-title">DELIVER</h3>
+              <p class="step-desc">Final analog-digital mastering, loudness matching, multi-format delivery, and stems for release.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           8. TESTIMONIALS SECTION
+           ==================================================================== -->
+      <section class="section" id="testimonials" style="background: rgba(17, 18, 23, 0.45);">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-tagline">Feedback &amp; Collaboration</span>
+            <h2 class="section-title">WHAT PEOPLE SAY</h2>
+            <p class="section-subtitle">
+              Thoughts from artists, directors, and creatives who have collaborated with Akkadan Musix.
+            </p>
+          </div>
+
+          <div class="testimonials-grid">
+            <!-- Testimonial 1 (Clearly marked placeholder) -->
+            <div class="testimonial-card reveal-on-scroll" id="testimonial-1">
+              <div>
+                <div class="testimonial-quote-icon">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"></path>
+                  </svg>
+                </div>
+                <blockquote class="testimonial-quote">
+                  "The mixing and production workflow was seamless. The balance and low-end clarity in the final master brought our song to life across streaming platforms."
+                </blockquote>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-avatar">AM</div>
+                <div>
+                  <div class="author-name">Independent Artist</div>
+                  <div class="author-role">Vocalist &amp; Songwriter</div>
+                  <span class="placeholder-badge">Placeholder Testimonial</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 2 (Clearly marked placeholder) -->
+            <div class="testimonial-card reveal-on-scroll delay-1" id="testimonial-2">
+              <div>
+                <div class="testimonial-quote-icon">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"></path>
+                  </svg>
+                </div>
+                <blockquote class="testimonial-quote">
+                  "Finding an audio team that understands cinematic pacing and emotional subtlety is rare. Akkadan Musix delivered the film score ahead of schedule with remarkable fidelity."
+                </blockquote>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-avatar">FD</div>
+                <div>
+                  <div class="author-name">Film Director</div>
+                  <div class="author-role">Independent Cinema &amp; Short Film</div>
+                  <span class="placeholder-badge">Placeholder Testimonial</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 3 (Clearly marked placeholder) -->
+            <div class="testimonial-card reveal-on-scroll delay-2" id="testimonial-3">
+              <div>
+                <div class="testimonial-quote-icon">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"></path>
+                  </svg>
+                </div>
+                <blockquote class="testimonial-quote">
+                  "Technical precision combined with musical imagination. The audio branding and sonic cues created for our product launch video captured the brand's futuristic aesthetic."
+                </blockquote>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-avatar">CL</div>
+                <div>
+                  <div class="author-name">Creative Lead</div>
+                  <div class="author-role">Digital Agency &amp; Brand Media</div>
+                  <span class="placeholder-badge">Placeholder Testimonial</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           9. CONTACT SECTION
+           ==================================================================== -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="contact-grid">
+            <!-- Left Column: Details & Direct Channels -->
+            <div class="contact-info-col reveal-on-scroll">
+              <div class="section-header" style="margin-bottom: 2rem;">
+                <span class="section-tagline">Start A Conversation</span>
+                <h2 class="section-title">LET'S CREATE SOMETHING.</h2>
+                <p class="section-subtitle">
+                  Have a track, film, advertisement, event or idea that needs sound? Let's talk.
+                </p>
+              </div>
+
+              <div class="contact-direct-channels">
+                <!-- Instagram -->
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="channel-card" id="contact-channel-instagram">
+                  <div class="channel-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="channel-label">Instagram</div>
+                    <div class="channel-value">@akkadanmusix</div>
+                  </div>
+                </a>
+
+                <!-- YouTube -->
+                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="channel-card" id="contact-channel-youtube">
+                  <div class="channel-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                      <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="channel-label">YouTube</div>
+                    <div class="channel-value">Akkadan Musix Official</div>
+                  </div>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:arunakkadan8304@gmail.com" class="channel-card" id="contact-channel-email">
+                  <div class="channel-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="channel-label">Email Enquiry</div>
+                    <div class="channel-value">arunakkadan8304@gmail.com</div>
+                  </div>
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/918304000000" target="_blank" rel="noopener noreferrer" class="channel-card" id="contact-channel-whatsapp">
+                  <div class="channel-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="channel-label">WhatsApp Direct</div>
+                    <div class="channel-value">+91 (Direct Chat)</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Column: Interactive Contact Form -->
+            <div class="contact-form-container reveal-on-scroll delay-1">
+              <div id="form-alert" class="form-status-alert"></div>
+
+              <form id="contact-form" novalidate>
+                <div class="form-row">
+                  <!-- Name Field -->
+                  <div class="form-group">
+                    <label for="form-name" class="form-label">Name *</label>
+                    <input 
+                      type="text" 
+                      id="form-name" 
+                      class="form-input" 
+                      placeholder="Your name or artist alias" 
+                      required 
+                    />
+                  </div>
+
+                  <!-- Email Field -->
+                  <div class="form-group">
+                    <label for="form-email" class="form-label">Email *</label>
+                    <input 
+                      type="email" 
+                      id="form-email" 
+                      class="form-input" 
+                      placeholder="your.email@domain.com" 
+                      required 
+                    />
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <!-- Phone Field -->
+                  <div class="form-group">
+                    <label for="form-phone" class="form-label">Phone</label>
+                    <input 
+                      type="tel" 
+                      id="form-phone" 
+                      class="form-input" 
+                      placeholder="+91 / International number" 
+                    />
+                  </div>
+
+                  <!-- Project Type Dropdown -->
+                  <div class="form-group">
+                    <label for="form-project-type" class="form-label">Project Type *</label>
+                    <select id="form-project-type" class="form-select" required>
+                      <option value="Music Production">Music Production</option>
+                      <option value="Recording">Recording</option>
+                      <option value="Mixing">Mixing</option>
+                      <option value="Mastering">Mastering</option>
+                      <option value="Live Sound">Live Sound</option>
+                      <option value="Audio / Video">Audio / Video</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Message Field -->
+                <div class="form-group">
+                  <label for="form-message" class="form-label">Message *</label>
+                  <textarea 
+                    id="form-message" 
+                    class="form-textarea" 
+                    placeholder="Tell us about your project timeline, vision, references, or requirements..."
+                    required
+                  ></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary" id="form-submit-btn" style="width: 100%;">
+                  <span>Send Enquiry</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ====================================================================
+         10. PERSISTENT AUDIO PLAYER BAR
+         ==================================================================== -->
+    <div class="global-audio-player" id="global-audio-player" role="region" aria-label="Audio Player">
+      <div class="container player-container">
+        <!-- Track Thumbnail & Title -->
+        <div class="player-track-info">
+          <img 
+            id="player-thumb" 
+            src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=120&q=80" 
+            alt="Track Artwork" 
+            class="player-thumbnail" 
+          />
+          <div class="player-text">
+            <div id="player-track-title" class="player-track-title">Midnight Velvet</div>
+            <div id="player-track-category" class="player-track-category">Music Production</div>
+          </div>
+        </div>
+
+        <!-- Center Controls & Scrub Progress -->
+        <div class="player-center-controls">
+          <div class="player-buttons">
+            <button class="player-btn" id="player-prev-btn" aria-label="Previous Track">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="19 20 9 12 19 4 19 20"></polygon>
+                <line x1="5" y1="19" x2="5" y2="5" stroke="currentColor" stroke-width="2"></line>
+              </svg>
+            </button>
+            <button class="player-btn play-pause-btn" id="player-play-pause-btn" aria-label="Play or Pause Track">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="6 4 20 12 6 20 6 4"></polygon>
+              </svg>
+            </button>
+            <button class="player-btn" id="player-next-btn" aria-label="Next Track">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="5 4 15 12 5 20 5 4"></polygon>
+                <line x1="19" y1="5" x2="19" y2="19" stroke="currentColor" stroke-width="2"></line>
+              </svg>
+            </button>
+          </div>
+
+          <div class="player-timeline-row">
+            <span id="player-current-time" class="time-display">0:00</span>
+            <div class="progress-track" id="player-progress-bar" role="slider" aria-label="Playback timeline" tabindex="0">
+              <div class="progress-fill" id="player-progress-fill">
+                <span class="progress-thumb"></span>
+              </div>
+            </div>
+            <span id="player-duration" class="time-display">3:42</span>
+          </div>
+        </div>
+
+        <!-- Right Side: Mini Equalizer, Volume, and Close -->
+        <div class="player-right-controls">
+          <div class="player-mini-visualizer" aria-hidden="true">
+            <span class="mini-vis-bar" style="animation-delay: 0.1s;"></span>
+            <span class="mini-vis-bar" style="animation-delay: 0.3s;"></span>
+            <span class="mini-vis-bar" style="animation-delay: 0.2s;"></span>
+            <span class="mini-vis-bar" style="animation-delay: 0.5s;"></span>
+            <span class="mini-vis-bar" style="animation-delay: 0.4s;"></span>
+          </div>
+
+          <div class="volume-control-group">
+            <button class="player-btn" id="player-volume-btn" aria-label="Mute / Unmute">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+              </svg>
+            </button>
+            <input 
+              type="range" 
+              id="player-volume-slider" 
+              class="volume-slider" 
+              min="0" 
+              max="1" 
+              step="0.05" 
+              value="0.8" 
+              aria-label="Volume Slider" 
+            />
+          </div>
+
+          <button class="player-btn player-close-btn" id="player-close-btn" aria-label="Hide audio player">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         11. FOOTER
+         ==================================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <!-- Brand Column -->
+          <div>
+            <div class="brand-title">
+              <span class="line-1" style="font-size: 1.5rem;">AKKADAN</span>
+              <span class="line-2" style="font-size: 1rem; color: var(--accent-purple);">MUSIX</span>
+            </div>
+            <p class="footer-brand-desc">
+              Music • Production • Sound. Transforming creative vision into immersive, professional audio experiences.
+            </p>
+            <div class="footer-social-links">
+              <!-- Instagram -->
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+              <!-- YouTube -->
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="YouTube">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                  <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                </svg>
+              </a>
+              <!-- Email -->
+              <a href="mailto:arunakkadan8304@gmail.com" class="social-btn" aria-label="Email">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+              <!-- WhatsApp -->
+              <a href="https://wa.me/918304000000" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="WhatsApp">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Navigation Links -->
+          <div>
+            <h4 class="footer-col-title">Navigation</h4>
+            <ul class="footer-nav-list">
+              <li><a href="#home" class="footer-nav-link">Home</a></li>
+              <li><a href="#about" class="footer-nav-link">About Studio</a></li>
+              <li><a href="#services" class="footer-nav-link">What We Do</a></li>
+              <li><a href="#works" class="footer-nav-link">Selected Works</a></li>
+              <li><a href="#studio" class="footer-nav-link">Inside The Studio</a></li>
+              <li><a href="#contact" class="footer-nav-link">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Services Column -->
+          <div>
+            <h4 class="footer-col-title">Services</h4>
+            <ul class="footer-nav-list">
+              <li><a href="#services" class="footer-nav-link">Music Production</a></li>
+              <li><a href="#services" class="footer-nav-link">Recording</a></li>
+              <li><a href="#services" class="footer-nav-link">Mixing</a></li>
+              <li><a href="#services" class="footer-nav-link">Mastering</a></li>
+              <li><a href="#services" class="footer-nav-link">Live Sound</a></li>
+              <li><a href="#services" class="footer-nav-link">Audio / Video Production</a></li>
+            </ul>
+          </div>
+
+          <!-- Studio Location & Direct Contact -->
+          <div>
+            <h4 class="footer-col-title">Direct Inquiries</h4>
+            <ul class="footer-nav-list">
+              <li style="color: var(--text-secondary); font-size: 0.875rem;">arunakkadan8304@gmail.com</li>
+              <li style="color: var(--text-secondary); font-size: 0.875rem;">@akkadanmusix</li>
+              <li style="margin-top: 1rem;">
+                <a href="#contact" class="btn btn-secondary btn-sm" style="display: inline-flex;">
+                  <span>Book A Session</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <div>&copy; 2026 Akkadan Musix. All rights reserved.</div>
+          <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll back to top">
+            <span>Back to Top</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="19" x2="12" y2="5"></line>
+              <polyline points="5 12 12 5 19 12"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Main JavaScript Application -->
+    <script type="module" src="/js/script.js"></script>
+  </body>
+</html>

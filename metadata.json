@@ -1,0 +1,6 @@
+{
+  "name": "AKKADAN MUSIX",
+  "description": "Official website for AKKADAN MUSIX — Music Production, Audio Engineering, Mixing, Mastering, Live Sound, and Creative Sound Solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
